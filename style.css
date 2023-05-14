@@ -1,0 +1,78 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    padding: 2rem;
+    border-radius: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40rem;
+    font-size: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.search{
+    border: 2px solid white;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.search .search-bar{
+    background-color: inherit;
+    border: none;
+    object-fit: cover;
+    color: white;
+    outline: none;
+    padding: 0.8rem;
+}
+.search button{
+    border: none;
+    background-color: inherit;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.description{
+    text-transform: capitalize;
+
+}
+.weather.loading {
+    visibility: hidden;
+    max-height: 2rem;
+    position: relative;
+    
+}
+
+.weather.loading:after{
+    visibility: visible;
+   
+    content: "Search the city";
+    color:white ;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+
+}

@@ -1,0 +1,44 @@
+
+    {
+        "coord":{
+        "lon":49.892,
+        "lat":40.3777
+    },
+    "weather":[
+        {
+            "id":803,
+            "main":"Clouds",
+            "description":"broken clouds",
+            "icon":"04n"
+            }
+        ],
+    "base":"stations",
+    "main":{
+        "temp":281.18,
+        "feels_like":278.67,
+        "temp_min":281.18,
+        "temp_max":281.18,
+        "pressure":1020,
+        "humidity":76
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":4.12,
+        "deg":340
+    },
+    "clouds":{
+        "all":75
+    },
+    "dt":1671984206,
+    "sys":{
+        "type":1,
+        "id":8841,
+        "country":"AZ",
+        "sunrise":1671940894,
+        "sunset":1671974339
+    },
+    "timezone":14400,
+    "id":587084,
+    "name":"Baku",
+    "cod":200
+}
